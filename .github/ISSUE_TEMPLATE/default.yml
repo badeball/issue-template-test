@@ -28,6 +28,11 @@ body:
       label: Node version
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Operating system
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
