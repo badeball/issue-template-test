@@ -1,4 +1,5 @@
 name: Bug Report
+description: foo
 body:
   - type: textarea
     attributes:
