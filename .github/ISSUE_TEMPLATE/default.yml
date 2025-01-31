@@ -18,6 +18,16 @@ body:
       label: Cypress version
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Preprocessor version
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Node version
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
