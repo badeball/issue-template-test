@@ -1,11 +1,13 @@
 name: Bug Report
 body:
   - type: textarea
+    attributes:
       label: Current behavior
       description: A description including screenshots, stack traces, DEBUG logs, etc.
     validations:
       required: true
   - type: textarea
+    attributes:
       label: Desired behavior
       description: A clear description of what you want to happen.
     validations:
