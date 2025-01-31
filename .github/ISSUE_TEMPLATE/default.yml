@@ -2,18 +2,21 @@ name: Bug Report
 body:
   - type: markdown
     attributes:
+      value: ""
       label: Current behavior
       description: A description including screenshots, stack traces, DEBUG logs, etc.
     validations:
       required: true
   - type: markdown
     attributes:
+      value: ""
       label: Desired behavior
       description: A clear description of what you want to happen.
     validations:
       required: true
   - type: input
-    label: Cypress version
+    attributes:
+      label: Cypress version
     validations:
       required: true
   - type: checkboxes
