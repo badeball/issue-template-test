@@ -20,6 +20,7 @@ body:
     validations:
       required: true
   - type: input
+    description: foo
     attributes:
       label: Cypress version
     validations:
